@@ -8,8 +8,8 @@ const app = express();
 const port = 3000;
 const program = new Command();
 
-export const accountName = 'AdminDavid';
-export const mnemonic = "strong orchard plastic arena pyramid lobster lonely rich stomach label clog rubber";
+export const accountName = '';
+export const mnemonic = "";
 export const { seed } = GearKeyring.generateSeed(mnemonic);
 
 
